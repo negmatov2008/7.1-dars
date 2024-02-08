@@ -1,77 +1,74 @@
 import { useEffect, useState } from "react";
 
-
-
-function App() {
-  const images = [
+const images = [
   {
     id: 1,
-    img: "./src/public/img.1.jpg",
+    img: "/img.1.jpg",
     isIt: false,
   },
   {
     id: 2,
-    img: "./src/public/img2.jpg",
+    img: "/img2.jpg",
     isIt: true,
   },
   {
     id: 3,
-    img: "./src/public/img3.jpg",
+    img: "/img3.jpg",
     isIt: false,
   },
   {
     id: 4,
-    img: "./src/public/img4.jpg",
+    img: "/img4.jpg",
     isIt: false,
   },
   {
     id: 5,
-    img: "./src/public/img5.jpg",
+    img: "/img5.jpg",
     isIt: false,
   },
   {
     id: 6,
-    img: "./src/public/img6.jpg",
+    img: "/img6.jpg",
     isIt: false,
   },
   {
     id: 7,
-    img: "./src/public/img7.jpg",
+    img: "/img7.jpg",
     isIt: false,
   },
   {
     id: 8,
-    img: "./src/public/img8.jpg",
+    img: "/img8.jpg",
     isIt: false,
   },
   {
     id: 9,
-    img: "./src/public/img9.jpg",
+    img: "/img9.jpg",
     isIt: false,
   },
   {
     id: 10,
-    img: "./src/public/img10.jpg",
+    img: "/img10.jpg",
     isIt: false,
   },
   {
     id: 11,
-    img: "./src/public/img11.jpg",
+    img: "/img11.jpg",
     isIt: false,
   },
   {
     id: 12,
-    img: "./src/public/img12.jpg",
+    img: "/img12.jpg",
     isIt: false,
   },
   {
     id: 13,
-    img: "./src/public/img13.jpg",
+    img: "/img13.jpg",
     isIt: false,
   },
   {
     id: 14,
-    img: "./src/public/img14.jpg",
+    img: "/img14.jpg",
     isIt: false,
   },
   {
@@ -80,6 +77,8 @@ function App() {
     isIt: false,
   },
 ];
+
+function App() {
   const [img, setImg] = useState();
   const hanleClick = (imgg) => {
     const oneIMg = images.find((imggg) => imggg.img === imgg.img);
