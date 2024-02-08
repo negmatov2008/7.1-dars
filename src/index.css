@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardd {
+  display: flex;
+  overflow: auto;
+  gap: 8px;
+  max-width: 85%;
+  margin: 0 auto;
+  scrollbar-track-color: red;
+  scrollbar-arrow-color: red;
+}
