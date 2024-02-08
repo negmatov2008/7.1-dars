@@ -115,13 +115,13 @@ function App() {
             onClick={() => {
               hanleNext(img ? img.id : images[2].id);
             }}
-            className="font-black text-lx px-3 py-1 text-center rounded-full bg-slate-300 absolute top-[50%] right-[160px]"
+            className="font-black hover:bg-slate-600 hover:text-white text-lx px-3 py-1 text-center rounded-full bg-slate-300 absolute top-[50%] right-[160px]"
           >{`>`}</button>
           <button
             onClick={() => {
               hanlePrev(img ? img.id : images[2].id);
             }}
-            className="font-black text-2lx px-3 py-1 text-center rounded-full bg-slate-300 absolute top-[50%] left-[160px]"
+            className="font-black hover:bg-slate-600 hover:text-white text-2lx px-3 py-1 text-center rounded-full bg-slate-300 absolute top-[50%] left-[160px]"
           >{`<`}</button>
         </div>
 
